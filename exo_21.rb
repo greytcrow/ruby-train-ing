@@ -4,14 +4,17 @@ taille = gets.chomp
 size = taille.to_i
 
 i = 0
-j = 0
+j = 1
 
 begin
 	begin
-	print "#"
+	if j < size -i
+		print " "
+	else print "#"
+	end
     j = j + 1
-	end while j <= i
-	j = 0
+	end while j <= size
+	j = 1
 	i = i + 1
 	puts ""
 end while i < size
