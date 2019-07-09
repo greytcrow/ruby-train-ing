@@ -19,3 +19,5 @@ puts "C'est drôle ça, faisons-en plus :"
 puts "Est-ce que 5 est plus grand que -2 ? #{5 > -2}"
 puts "Est-ce que 5 est supérieur ou égal à -2 ? #{5 >= -2}"
 puts "Est-ce que 5 est inférieur ou égal à -2 ? #{5 <= -2}"
+
+#{} permet de mettre le resultat d'une operation dans des ""
